@@ -1,0 +1,14 @@
+{
+  "northstar": "Enterprise sales",
+  "orbit": "Enterprise sales",
+  "fieldwork": "Self-service",
+  "cedar": "Self-service",
+  "atlas": "Technical discovery",
+  "lumen": "Technical discovery",
+  "harbor": "Technical discovery",
+  "summit": "Nurture",
+  "pixel": "Nurture",
+  "juniper": "Manual review",
+  "signal": "Manual review",
+  "meridian": "Manual review"
+}

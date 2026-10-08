@@ -1,0 +1,674 @@
+[
+  {
+    "id": "northstar",
+    "company": "Northstar Commerce",
+    "sector": "Commerce",
+    "tag": "Priority pilot",
+    "website": "https://northstar.example",
+    "inquiry": "We want a pilot for customer-support reply drafting within 30 days. We handle 12,000 support tickets a month on Zendesk. Our help center is approved for use and our support systems lead will own implementation.",
+    "kind": "fictional",
+    "created_at": "2026-10-04T12:00:00Z",
+    "conflict": false,
+    "conflict_note": "",
+    "sources": [
+      {
+        "id": "inquiry",
+        "title": "Fictional inbound inquiry",
+        "kind": "Inquiry",
+        "excerpt": "We want a pilot for customer-support reply drafting within 30 days. We handle 12,000 support tickets a month on Zendesk. Our help center is approved for use and our support systems lead will own implementation."
+      },
+      {
+        "id": "profile",
+        "title": "Fictional company profile",
+        "kind": "Company profile",
+        "excerpt": "Northstar Commerce is a fictional commerce company created for this demonstration. Its .example address is illustrative; no website was fetched."
+      }
+    ],
+    "facts": {
+      "support_workflow": {
+        "value": true,
+        "source_id": "inquiry"
+      },
+      "monthly_tickets": {
+        "value": 12000,
+        "source_id": "inquiry"
+      },
+      "stack": {
+        "value": "Zendesk",
+        "source_id": "inquiry"
+      },
+      "intent": {
+        "value": "Pilot requested",
+        "source_id": "inquiry"
+      },
+      "timeline_days": {
+        "value": 30,
+        "source_id": "inquiry"
+      },
+      "kb_ready": {
+        "value": true,
+        "source_id": "inquiry"
+      },
+      "implementation_owner": {
+        "value": true,
+        "source_id": "inquiry"
+      }
+    }
+  },
+  {
+    "id": "orbit",
+    "company": "Orbit Analytics",
+    "sector": "B2B software",
+    "tag": "Ready to evaluate",
+    "website": "https://orbit.example",
+    "inquiry": "We would like to evaluate an AI assistant for customer support in the next 60 days. We receive 3,200 tickets monthly in Intercom. We have a maintained knowledge base and an implementation owner assigned.",
+    "kind": "fictional",
+    "created_at": "2026-10-04T12:01:00Z",
+    "conflict": false,
+    "conflict_note": "",
+    "sources": [
+      {
+        "id": "inquiry",
+        "title": "Fictional inbound inquiry",
+        "kind": "Inquiry",
+        "excerpt": "We would like to evaluate an AI assistant for customer support in the next 60 days. We receive 3,200 tickets monthly in Intercom. We have a maintained knowledge base and an implementation owner assigned."
+      },
+      {
+        "id": "profile",
+        "title": "Fictional company profile",
+        "kind": "Company profile",
+        "excerpt": "Orbit Analytics is a fictional b2b software company created for this demonstration. Its .example address is illustrative; no website was fetched."
+      }
+    ],
+    "facts": {
+      "support_workflow": {
+        "value": true,
+        "source_id": "inquiry"
+      },
+      "monthly_tickets": {
+        "value": 3200,
+        "source_id": "inquiry"
+      },
+      "stack": {
+        "value": "Intercom",
+        "source_id": "inquiry"
+      },
+      "intent": {
+        "value": "Evaluating",
+        "source_id": "inquiry"
+      },
+      "timeline_days": {
+        "value": 60,
+        "source_id": "inquiry"
+      },
+      "kb_ready": {
+        "value": true,
+        "source_id": "inquiry"
+      },
+      "implementation_owner": {
+        "value": true,
+        "source_id": "inquiry"
+      }
+    }
+  },
+  {
+    "id": "fieldwork",
+    "company": "Fieldwork Supply",
+    "sector": "Commerce",
+    "tag": "Small team, clear need",
+    "website": "https://fieldwork.example",
+    "inquiry": "Could we try a pilot for customer-support replies within 30 days? We receive 280 monthly tickets in Zendesk. Our knowledge base is ready and I will own the setup.",
+    "kind": "fictional",
+    "created_at": "2026-10-04T12:02:00Z",
+    "conflict": false,
+    "conflict_note": "",
+    "sources": [
+      {
+        "id": "inquiry",
+        "title": "Fictional inbound inquiry",
+        "kind": "Inquiry",
+        "excerpt": "Could we try a pilot for customer-support replies within 30 days? We receive 280 monthly tickets in Zendesk. Our knowledge base is ready and I will own the setup."
+      },
+      {
+        "id": "profile",
+        "title": "Fictional company profile",
+        "kind": "Company profile",
+        "excerpt": "Fieldwork Supply is a fictional commerce company created for this demonstration. Its .example address is illustrative; no website was fetched."
+      }
+    ],
+    "facts": {
+      "support_workflow": {
+        "value": true,
+        "source_id": "inquiry"
+      },
+      "monthly_tickets": {
+        "value": 280,
+        "source_id": "inquiry"
+      },
+      "stack": {
+        "value": "Zendesk",
+        "source_id": "inquiry"
+      },
+      "intent": {
+        "value": "Pilot requested",
+        "source_id": "inquiry"
+      },
+      "timeline_days": {
+        "value": 30,
+        "source_id": "inquiry"
+      },
+      "kb_ready": {
+        "value": true,
+        "source_id": "inquiry"
+      },
+      "implementation_owner": {
+        "value": true,
+        "source_id": "inquiry"
+      }
+    }
+  },
+  {
+    "id": "cedar",
+    "company": "Cedar Studio",
+    "sector": "Professional services",
+    "tag": "Start small",
+    "website": "https://cedar.example",
+    "inquiry": "We want to evaluate customer-support automation for 600 monthly tickets in Intercom. We have a knowledge base, but no implementation owner yet. We have not set a date.",
+    "kind": "fictional",
+    "created_at": "2026-10-04T12:03:00Z",
+    "conflict": false,
+    "conflict_note": "",
+    "sources": [
+      {
+        "id": "inquiry",
+        "title": "Fictional inbound inquiry",
+        "kind": "Inquiry",
+        "excerpt": "We want to evaluate customer-support automation for 600 monthly tickets in Intercom. We have a knowledge base, but no implementation owner yet. We have not set a date."
+      },
+      {
+        "id": "profile",
+        "title": "Fictional company profile",
+        "kind": "Company profile",
+        "excerpt": "Cedar Studio is a fictional professional services company created for this demonstration. Its .example address is illustrative; no website was fetched."
+      }
+    ],
+    "facts": {
+      "support_workflow": {
+        "value": true,
+        "source_id": "inquiry"
+      },
+      "monthly_tickets": {
+        "value": 600,
+        "source_id": "inquiry"
+      },
+      "stack": {
+        "value": "Intercom",
+        "source_id": "inquiry"
+      },
+      "intent": {
+        "value": "Evaluating",
+        "source_id": "inquiry"
+      },
+      "timeline_days": {
+        "value": null,
+        "source_id": null
+      },
+      "kb_ready": {
+        "value": true,
+        "source_id": "inquiry"
+      },
+      "implementation_owner": {
+        "value": false,
+        "source_id": "inquiry"
+      }
+    }
+  },
+  {
+    "id": "atlas",
+    "company": "Atlas Logistics",
+    "sector": "Logistics",
+    "tag": "Custom integration",
+    "website": "https://atlas.example",
+    "inquiry": "We need a pilot for our customer-support queue in 45 days. We handle 18,000 tickets per month in a custom help desk. Our knowledge base and implementation owner are ready, but we need to discuss the integration.",
+    "kind": "fictional",
+    "created_at": "2026-10-04T12:04:00Z",
+    "conflict": false,
+    "conflict_note": "",
+    "sources": [
+      {
+        "id": "inquiry",
+        "title": "Fictional inbound inquiry",
+        "kind": "Inquiry",
+        "excerpt": "We need a pilot for our customer-support queue in 45 days. We handle 18,000 tickets per month in a custom help desk. Our knowledge base and implementation owner are ready, but we need to discuss the integration."
+      },
+      {
+        "id": "profile",
+        "title": "Fictional company profile",
+        "kind": "Company profile",
+        "excerpt": "Atlas Logistics is a fictional logistics company created for this demonstration. Its .example address is illustrative; no website was fetched."
+      }
+    ],
+    "facts": {
+      "support_workflow": {
+        "value": true,
+        "source_id": "inquiry"
+      },
+      "monthly_tickets": {
+        "value": 18000,
+        "source_id": "inquiry"
+      },
+      "stack": {
+        "value": "Custom",
+        "source_id": "inquiry"
+      },
+      "intent": {
+        "value": "Pilot requested",
+        "source_id": "inquiry"
+      },
+      "timeline_days": {
+        "value": 45,
+        "source_id": "inquiry"
+      },
+      "kb_ready": {
+        "value": true,
+        "source_id": "inquiry"
+      },
+      "implementation_owner": {
+        "value": true,
+        "source_id": "inquiry"
+      }
+    }
+  },
+  {
+    "id": "lumen",
+    "company": "Lumen Learning",
+    "sector": "Education software",
+    "tag": "Knowledge gap",
+    "website": "https://lumen.example",
+    "inquiry": "We want to evaluate AI customer-support replies within 60 days. There are 5,000 tickets monthly in Zendesk. We have assigned an implementation owner, but do not have an approved knowledge base yet.",
+    "kind": "fictional",
+    "created_at": "2026-10-04T12:05:00Z",
+    "conflict": false,
+    "conflict_note": "",
+    "sources": [
+      {
+        "id": "inquiry",
+        "title": "Fictional inbound inquiry",
+        "kind": "Inquiry",
+        "excerpt": "We want to evaluate AI customer-support replies within 60 days. There are 5,000 tickets monthly in Zendesk. We have assigned an implementation owner, but do not have an approved knowledge base yet."
+      },
+      {
+        "id": "profile",
+        "title": "Fictional company profile",
+        "kind": "Company profile",
+        "excerpt": "Lumen Learning is a fictional education software company created for this demonstration. Its .example address is illustrative; no website was fetched."
+      }
+    ],
+    "facts": {
+      "support_workflow": {
+        "value": true,
+        "source_id": "inquiry"
+      },
+      "monthly_tickets": {
+        "value": 5000,
+        "source_id": "inquiry"
+      },
+      "stack": {
+        "value": "Zendesk",
+        "source_id": "inquiry"
+      },
+      "intent": {
+        "value": "Evaluating",
+        "source_id": "inquiry"
+      },
+      "timeline_days": {
+        "value": 60,
+        "source_id": "inquiry"
+      },
+      "kb_ready": {
+        "value": false,
+        "source_id": "inquiry"
+      },
+      "implementation_owner": {
+        "value": true,
+        "source_id": "inquiry"
+      }
+    }
+  },
+  {
+    "id": "harbor",
+    "company": "Harbor Retail",
+    "sector": "Commerce",
+    "tag": "Owner unconfirmed",
+    "website": "https://harbor.example",
+    "inquiry": "We would like a pilot for customer-support automation. We handle 8,200 tickets a month in Intercom and have an approved help center. We have not confirmed a start date or implementation owner.",
+    "kind": "fictional",
+    "created_at": "2026-10-04T12:06:00Z",
+    "conflict": false,
+    "conflict_note": "",
+    "sources": [
+      {
+        "id": "inquiry",
+        "title": "Fictional inbound inquiry",
+        "kind": "Inquiry",
+        "excerpt": "We would like a pilot for customer-support automation. We handle 8,200 tickets a month in Intercom and have an approved help center. We have not confirmed a start date or implementation owner."
+      },
+      {
+        "id": "profile",
+        "title": "Fictional company profile",
+        "kind": "Company profile",
+        "excerpt": "Harbor Retail is a fictional commerce company created for this demonstration. Its .example address is illustrative; no website was fetched."
+      }
+    ],
+    "facts": {
+      "support_workflow": {
+        "value": true,
+        "source_id": "inquiry"
+      },
+      "monthly_tickets": {
+        "value": 8200,
+        "source_id": "inquiry"
+      },
+      "stack": {
+        "value": "Intercom",
+        "source_id": "inquiry"
+      },
+      "intent": {
+        "value": "Pilot requested",
+        "source_id": "inquiry"
+      },
+      "timeline_days": {
+        "value": null,
+        "source_id": null
+      },
+      "kb_ready": {
+        "value": true,
+        "source_id": "inquiry"
+      },
+      "implementation_owner": {
+        "value": null,
+        "source_id": null
+      }
+    }
+  },
+  {
+    "id": "summit",
+    "company": "Summit Cloud",
+    "sector": "B2B software",
+    "tag": "Interest without intent",
+    "website": "https://summit.example",
+    "inquiry": "We are exploring the landscape for AI customer support, with no evaluation planned. We handle 25,000 monthly tickets on Zendesk. Please share educational materials; implementation details are not confirmed.",
+    "kind": "fictional",
+    "created_at": "2026-10-04T12:07:00Z",
+    "conflict": false,
+    "conflict_note": "",
+    "sources": [
+      {
+        "id": "inquiry",
+        "title": "Fictional inbound inquiry",
+        "kind": "Inquiry",
+        "excerpt": "We are exploring the landscape for AI customer support, with no evaluation planned. We handle 25,000 monthly tickets on Zendesk. Please share educational materials; implementation details are not confirmed."
+      },
+      {
+        "id": "profile",
+        "title": "Fictional company profile",
+        "kind": "Company profile",
+        "excerpt": "Summit Cloud is a fictional b2b software company created for this demonstration. Its .example address is illustrative; no website was fetched."
+      }
+    ],
+    "facts": {
+      "support_workflow": {
+        "value": true,
+        "source_id": "inquiry"
+      },
+      "monthly_tickets": {
+        "value": 25000,
+        "source_id": "inquiry"
+      },
+      "stack": {
+        "value": "Zendesk",
+        "source_id": "inquiry"
+      },
+      "intent": {
+        "value": "Exploring",
+        "source_id": "inquiry"
+      },
+      "timeline_days": {
+        "value": null,
+        "source_id": null
+      },
+      "kb_ready": {
+        "value": null,
+        "source_id": null
+      },
+      "implementation_owner": {
+        "value": null,
+        "source_id": null
+      }
+    }
+  },
+  {
+    "id": "pixel",
+    "company": "Pixel Forge",
+    "sector": "Creative software",
+    "tag": "Outside product scope",
+    "website": "https://pixel.example",
+    "inquiry": "We want a pilot in 30 days for outbound marketing copy, not customer support. For context, our support team handles 2,000 monthly tickets in another tool. There is no knowledge base, but our marketing lead owns this project.",
+    "kind": "fictional",
+    "created_at": "2026-10-04T12:08:00Z",
+    "conflict": false,
+    "conflict_note": "",
+    "sources": [
+      {
+        "id": "inquiry",
+        "title": "Fictional inbound inquiry",
+        "kind": "Inquiry",
+        "excerpt": "We want a pilot in 30 days for outbound marketing copy, not customer support. For context, our support team handles 2,000 monthly tickets in another tool. There is no knowledge base, but our marketing lead owns this project."
+      },
+      {
+        "id": "profile",
+        "title": "Fictional company profile",
+        "kind": "Company profile",
+        "excerpt": "Pixel Forge is a fictional creative software company created for this demonstration. Its .example address is illustrative; no website was fetched."
+      }
+    ],
+    "facts": {
+      "support_workflow": {
+        "value": false,
+        "source_id": "inquiry"
+      },
+      "monthly_tickets": {
+        "value": 2000,
+        "source_id": "inquiry"
+      },
+      "stack": {
+        "value": "Other",
+        "source_id": "inquiry"
+      },
+      "intent": {
+        "value": "Pilot requested",
+        "source_id": "inquiry"
+      },
+      "timeline_days": {
+        "value": 30,
+        "source_id": "inquiry"
+      },
+      "kb_ready": {
+        "value": false,
+        "source_id": "inquiry"
+      },
+      "implementation_owner": {
+        "value": true,
+        "source_id": "inquiry"
+      }
+    }
+  },
+  {
+    "id": "juniper",
+    "company": "Juniper Health Tech",
+    "sector": "Business software",
+    "tag": "Missing volume",
+    "website": "https://juniper.example",
+    "inquiry": "We want to evaluate customer-support reply assistance within 90 days using Zendesk. A knowledge base and implementation owner are available. We have not supplied our ticket volume.",
+    "kind": "fictional",
+    "created_at": "2026-10-04T12:09:00Z",
+    "conflict": false,
+    "conflict_note": "",
+    "sources": [
+      {
+        "id": "inquiry",
+        "title": "Fictional inbound inquiry",
+        "kind": "Inquiry",
+        "excerpt": "We want to evaluate customer-support reply assistance within 90 days using Zendesk. A knowledge base and implementation owner are available. We have not supplied our ticket volume."
+      },
+      {
+        "id": "profile",
+        "title": "Fictional company profile",
+        "kind": "Company profile",
+        "excerpt": "Juniper Health Tech is a fictional business software company created for this demonstration. Its .example address is illustrative; no website was fetched."
+      }
+    ],
+    "facts": {
+      "support_workflow": {
+        "value": true,
+        "source_id": "inquiry"
+      },
+      "monthly_tickets": {
+        "value": null,
+        "source_id": null
+      },
+      "stack": {
+        "value": "Zendesk",
+        "source_id": "inquiry"
+      },
+      "intent": {
+        "value": "Evaluating",
+        "source_id": "inquiry"
+      },
+      "timeline_days": {
+        "value": 90,
+        "source_id": "inquiry"
+      },
+      "kb_ready": {
+        "value": true,
+        "source_id": "inquiry"
+      },
+      "implementation_owner": {
+        "value": true,
+        "source_id": "inquiry"
+      }
+    }
+  },
+  {
+    "id": "signal",
+    "company": "Signal Works",
+    "sector": "Professional services",
+    "tag": "Unclear inquiry",
+    "website": "https://signal.example",
+    "inquiry": "Interested in AI for our business. Can you send information? We have not specified a workflow, volume, tools, timeline, or project owner.",
+    "kind": "fictional",
+    "created_at": "2026-10-04T12:10:00Z",
+    "conflict": false,
+    "conflict_note": "",
+    "sources": [
+      {
+        "id": "inquiry",
+        "title": "Fictional inbound inquiry",
+        "kind": "Inquiry",
+        "excerpt": "Interested in AI for our business. Can you send information? We have not specified a workflow, volume, tools, timeline, or project owner."
+      },
+      {
+        "id": "profile",
+        "title": "Fictional company profile",
+        "kind": "Company profile",
+        "excerpt": "Signal Works is a fictional professional services company created for this demonstration. Its .example address is illustrative; no website was fetched."
+      }
+    ],
+    "facts": {
+      "support_workflow": {
+        "value": null,
+        "source_id": null
+      },
+      "monthly_tickets": {
+        "value": null,
+        "source_id": null
+      },
+      "stack": {
+        "value": null,
+        "source_id": null
+      },
+      "intent": {
+        "value": null,
+        "source_id": null
+      },
+      "timeline_days": {
+        "value": null,
+        "source_id": null
+      },
+      "kb_ready": {
+        "value": null,
+        "source_id": null
+      },
+      "implementation_owner": {
+        "value": null,
+        "source_id": null
+      }
+    }
+  },
+  {
+    "id": "meridian",
+    "company": "Meridian Market",
+    "sector": "Commerce",
+    "tag": "Conflicting volume",
+    "website": "https://meridian.example",
+    "inquiry": "We want a pilot for customer support in 30 days. This form says 750 monthly tickets on Zendesk. Our knowledge base is ready and our operations lead owns implementation. A second intake note says 7,500 monthly tickets; this discrepancy is unresolved.",
+    "kind": "fictional",
+    "created_at": "2026-10-04T12:11:00Z",
+    "conflict": true,
+    "conflict_note": "The intake form states 750 monthly tickets, while a second note states 7,500.",
+    "sources": [
+      {
+        "id": "inquiry",
+        "title": "Fictional inbound inquiry",
+        "kind": "Inquiry",
+        "excerpt": "We want a pilot for customer support in 30 days. This form says 750 monthly tickets on Zendesk. Our knowledge base is ready and our operations lead owns implementation. A second intake note says 7,500 monthly tickets; this discrepancy is unresolved."
+      },
+      {
+        "id": "profile",
+        "title": "Fictional company profile",
+        "kind": "Company profile",
+        "excerpt": "Meridian Market is a fictional commerce company created for this demonstration. Its .example address is illustrative; no website was fetched."
+      }
+    ],
+    "facts": {
+      "support_workflow": {
+        "value": true,
+        "source_id": "inquiry"
+      },
+      "monthly_tickets": {
+        "value": 750,
+        "source_id": "inquiry"
+      },
+      "stack": {
+        "value": "Zendesk",
+        "source_id": "inquiry"
+      },
+      "intent": {
+        "value": "Pilot requested",
+        "source_id": "inquiry"
+      },
+      "timeline_days": {
+        "value": 30,
+        "source_id": "inquiry"
+      },
+      "kb_ready": {
+        "value": true,
+        "source_id": "inquiry"
+      },
+      "implementation_owner": {
+        "value": true,
+        "source_id": "inquiry"
+      }
+    }
+  }
+]

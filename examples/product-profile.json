@@ -1,0 +1,68 @@
+{
+  "name": "Relay AI \u2014 example",
+  "description": "Draft customer-support replies from an approved knowledge base. Requires Zendesk or Intercom and a project owner.",
+  "customer": "B2B software companies with a customer-support team. This profile is a fictional example; replace it with your own product.",
+  "criteria": [
+    {
+      "id": "fit1",
+      "group": "fit",
+      "weight": 50,
+      "required": true,
+      "label": "Relevant business",
+      "description": "The company sells B2B software."
+    },
+    {
+      "id": "fit2",
+      "group": "fit",
+      "weight": 50,
+      "required": false,
+      "label": "Relevant use case",
+      "description": "The prospect wants help drafting customer-support replies."
+    },
+    {
+      "id": "intent1",
+      "group": "intent",
+      "weight": 70,
+      "required": true,
+      "label": "Active evaluation",
+      "description": "The prospect explicitly requests a demo, evaluation, or pilot of the product."
+    },
+    {
+      "id": "intent2",
+      "group": "intent",
+      "weight": 30,
+      "required": false,
+      "label": "Defined timeline",
+      "description": "The prospect explicitly states a desired start within 90 days."
+    },
+    {
+      "id": "ready1",
+      "group": "readiness",
+      "weight": 50,
+      "required": true,
+      "label": "Project owner",
+      "description": "The prospect explicitly identifies a person or team responsible for implementation."
+    },
+    {
+      "id": "ready2",
+      "group": "readiness",
+      "weight": 50,
+      "required": false,
+      "label": "Prerequisites available",
+      "description": "The prospect explicitly confirms both a Zendesk or Intercom help desk and an approved knowledge base."
+    }
+  ],
+  "thresholds": {
+    "fit": 70,
+    "intent": 60,
+    "readiness": 60
+  },
+  "owners": {
+    "Sales ready": "Sales",
+    "Discovery": "Solutions / sales",
+    "Nurture": "Marketing",
+    "Not a fit": "Marketing",
+    "Review needed": "Revenue operations"
+  },
+  "version": "8bda03c9448b"
+}
